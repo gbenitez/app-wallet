@@ -8,7 +8,7 @@ use App\Models\Transfer;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
-class TransferServices
+class TransferService
 {
     public function execute(int $fromId, int $toId, string $amount): Transfer|TransferException
     {
