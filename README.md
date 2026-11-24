@@ -1,7 +1,7 @@
 # Wallet API API REST en Laravel para transferencias entre cuentas, con transacciones y bloqueo pesimista. 
 ## Requisitos- PHP 8.2+ con extensión bcmath- Composer 2- MySQL 8 
 ## Instalación    
-git clone git@github.com:gbenitez/app-wallet.git    
+git clone 'git@github.com:gbenitez/app-wallet.git'   
 cd wallet-api    
 composer install    
 cp .env.example .env    
