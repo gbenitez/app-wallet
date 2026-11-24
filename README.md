@@ -8,6 +8,7 @@ cp .env.example .env
 php artisan key:generate    
 # configurar DB_* en .env    
 php artisan migrate --seed   
+php artisan db:seed --class=AccountSeeder
 php artisan serve 
 ## Pruebas    
 php artisan test 
